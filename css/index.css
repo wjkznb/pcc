@@ -1,0 +1,432 @@
+html,body{
+    height: 100%;
+}
+.main{
+    width: 6.4rem;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.music {
+    position: absolute;
+    right: 0.15rem;
+    top: 0.5rem;
+    z-index: 666;
+}
+.music  img{
+    width: 0.5rem;
+    height: 0.5rem;
+    animation: music 1.5s linear infinite;
+}
+@keyframes music {
+    0%{
+          transform: rotate(0deg);
+      }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.swiper-container,.swiper-wrapper,.swiper-slide{
+    width: 100%;
+    height: 100%;
+}
+.slide1{
+    width: 100%;
+    height: 100%;
+    background: #B8C9C3;
+    background-size:cover;
+}
+#page1 img:nth-child(1){
+    width: 4.3rem;
+    height: 5.68rem;
+    position: absolute;
+    top: 0.6rem;
+    left: 1.3rem;
+    animation: slideInDown 1s 0.5s both;
+}
+#page1 img:nth-child(2){
+    width: 2.28rem;
+    height: 6.92rem;
+    z-index: 99;
+    position: absolute;
+    top: 0.5rem;
+    left: 2.3rem;
+    animation: slideInDown 1s 0.5s both;
+}
+#page1 img:nth-child(3){
+    width: 4.82rem;
+    height: 3.02rem;
+    position: absolute;
+    z-index: 10;
+    top: -0.6rem;
+    left: 0.85rem;
+    animation: slideInLeft 0.5s 0.1s both;
+}
+#page1 img:nth-child(4){
+    width: 2.18rem;
+    height: 4.26rem;
+    position: absolute;
+    top: -0.6rem;
+    left: 0.25rem;
+    animation: fadeInDown 0.4s 2s both;
+}
+#page1 img:nth-child(5){
+    width: 2.6rem;
+    height: 9.92rem;
+    position: absolute;
+    top: -0.7rem;
+    left: 3.85rem;
+    animation: fadeInDown 0.4s 2s both;
+}
+#page1 img:nth-child(6){
+    width: 0.84rem;
+    height: 0.94rem;
+    position: absolute;
+    top: 4rem;
+    left: 2.3rem;
+    animation: pulse 1s 2.6s both;
+    animation: zoomInDown 0.4s 2.3s both;
+
+}
+#page1 img:nth-child(7){
+    width: 0.7rem;
+    height: 0.94rem;
+    position: absolute;
+    top: 4.1rem;
+    left: 2.7rem;
+    animation: pulse 1s 2.6s both;
+    animation: zoomInDown 0.4s 2.3s both;
+}
+
+#page1 p{
+    position: absolute;
+    bottom:1.4rem;
+    left: 2.4rem;
+    font-size: 0.42rem;
+    color: white;
+    animation: zoomIn 0.4s 2.4s both;
+}
+
+.slide2 {
+    width: 100%;
+    height: 100%;
+    background: #B8C9C3;
+    background-size:cover;
+}
+#page2 img:nth-child(1){
+    width: 2.96rem;
+    height: 1.24rem;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    animation:zoomInLeft 1s 0.3s ;
+}
+#page2 img:nth-child(2){
+     width: 2.28rem;
+     height: 6.92rem;
+     z-index: 99;
+     position: absolute;
+     top: -2.9rem;
+     left: 0rem;
+     animation: slideInDown 1s 0.5s both;
+ }
+#page2 img:nth-child(3){
+    width: 4.42rem;
+    height: 11.06rem;
+    position: absolute;
+    top: -4.6rem;
+    left: 0.85rem;
+    animation: fadeInDown 0.5s 1s both;
+}
+#page2 img:nth-child(4){
+    width: 1.98rem;
+    height: 2.66rem;
+    position: absolute;
+    top: -0.4rem;
+    left: 4rem;
+    animation: fadeInDown 0.5s 1.5s both;
+}
+#page2 span{
+    position: absolute;
+    top: 4.85rem;
+    left: 1.5rem;
+    font-size: 14px;
+    animation: fadeInDown 0.5s 1.2s both;
+}
+#page2 img:nth-child(6){
+    width: 5.16rem;
+    height: 4.62rem;
+    position: absolute;
+    top: 6.32rem;
+    left: 1rem;
+    animation: zoomInLeft 0.5s 2s both;
+}
+#page2 .span1{
+    position: absolute;
+    top: 7.2rem;
+    left: 2rem;
+    animation: zoomInLeft 0.5s 2s both;
+}
+#page2 .span2{
+    position: absolute;
+    top: 8.2rem;
+    left: 2rem;
+    animation: zoomInLeft 0.5s 2s both;
+}
+.slide3 {
+    width: 100%;
+    height: 100%;
+    background: #B8C9C3;
+    background-size:cover;
+}
+#page3 img:nth-child(1){
+    width: 2.96rem;
+    height: 1.24rem;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    animation:zoomInLeft 1s 0.1s ;
+}
+#page3 img:nth-child(2){
+    width: 2.66rem;
+    height: 3.14rem;
+    position: absolute;
+    top: -0.6rem;
+    left: 3rem;
+    animation: fadeInDown 1s 0.2s both;
+}
+#page3 img:nth-child(3){
+    width: 2.18rem;
+    height: 4.26rem;
+    position: absolute;
+    top: -0.8rem;
+    left: 3.9rem;
+    animation: fadeInDown 1s 0.5s both;
+}
+#page3 img:nth-child(4){
+    width: 5.3rem;
+    height: 9.8rem;
+    position: absolute;
+    top: -0.7rem;
+    left: 0.9rem;
+    animation: fadeInDown 1s 0.7s both;
+}
+#page3 span{
+    position: absolute;
+    top: 5.2rem;
+    left: 2rem;
+    animation: zoomInLeft 1s 0.9s both;
+    font-size: 0.28rem;
+}
+#page3 .span1{
+    position: absolute;
+    top: 6.2rem;
+    left: 2.9rem;
+    animation: zoomInLeft 1s 1.3s both;
+    font-size: 0.2rem;
+}
+.slide4 {
+    width: 100%;
+    height: 100%;
+    background: #B8C9C3;
+    background-size:cover;
+}
+#page4 img:nth-child(1){
+    width: 2.96rem;
+    height: 1.24rem;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    animation:zoomInLeft 1s 0.1s ;
+}
+#page4 img:nth-child(2){
+    width: 1.62rem;
+    height: 4.42rem;
+    position: absolute;
+    top: -0.9rem;
+    left: 5rem;
+    animation:zoomInLeft 1s 0.5s ;
+}
+#page4 img:nth-child(3){
+    width: 6.58rem;
+    height: 13.68rem;
+    position: absolute;
+    top: -2rem;
+    left: 0rem;
+    animation:zoomInLeft 1s 0.8s ;
+}
+#page4 span {
+    position: absolute;
+    top: 4.6rem;
+    left: 1.3rem;
+    font-size: 0.28rem;
+    color: grey;
+    animation:zoomInLeft 1s 0.8s ;
+}
+
+
+#page4 .pic-ing{
+    width: 4.52rem;
+    height: 3.9rem;
+
+    background: url("../img/16056122-981d2710d742d2d1e98aad677d18346a-3_r2_c2.jpg") no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: 1.45rem;
+    left: 0.82rem;
+    animation: zoomIn 0.5s 2s both;
+}
+#page4 .pic-bg{
+    width: 4.52rem;
+    height: 3.9rem;
+   background: rgba(73,235,95,0.4);
+
+    position: absolute;
+    bottom: 1.45rem;
+    left: 0.82rem;
+    animation: zoomIn 0.5s 2.5s both;
+}
+#page4 .pic-p{
+    width: 4.52rem;
+    height: 3.9rem;
+    position: absolute;
+    font-size: 0.5rem;
+    bottom: 1.45rem;
+    left: 0.82rem;
+    color: black;
+    animation: flipInX 0.5s 3s both;
+}
+.slide5 {
+    width: 100%;
+    height: 100%;
+    background: #B8C9C3;
+    background-size:cover;
+}
+#page5 img:nth-child(1){
+    width: 2.96rem;
+    height: 1.24rem;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    animation:zoomInLeft 1s 0.1s ;
+}
+#page5 img:nth-child(2){
+    width: 1.84rem;
+    height: 5.18rem;
+    position: absolute;
+    top: -3rem;
+    right: 0rem;
+    animation:zoomInLeft 1s 0.1s ;
+}
+#page5 img:nth-child(3){
+    width: 1.84rem;
+    height: 5.18rem;
+    position: absolute;
+    top: -3rem;
+    right: 0rem;
+    animation:zoomInLeft 1s 0.3s ;
+}
+#page5 img:nth-child(3){
+    width: 6.84rem;
+    height: 10.92rem;
+    position: absolute;
+    top: -3.5rem;
+    right: -0.5rem;
+    animation:fadeInDown 0.5s 1.8s both;
+}
+#page5 img:nth-child(4){
+    width: 4.28rem;
+    height: 2.36rem;
+    position: absolute;
+    top: 3.8rem;
+    right: 1rem;
+    animation:fadeInDown 0.5s 2s both;
+}
+#page5 img:nth-child(5){
+    width: 4.72rem;
+    height: 2.66rem;
+    position: absolute;
+    top: 6.5rem;
+    right: 1rem;
+    animation:flipInX 0.5s 2.5s both;
+}
+#page5 img:nth-child(6){
+    width: 4.72rem;
+    height: 2.66rem;
+    position: absolute;
+    top: 8.3rem;
+    right: 1rem;
+    animation:flipInX 0.5s 2.8s both;
+}
+#page5 span{
+    font-size:0.5rem ;
+    position: absolute;
+    top: 7.5rem;
+    right: 2rem;
+    animation:fadeInDown 0.5s 2.5s both;
+}
+#page5 .span1{
+    font-size: 0.5rem;
+    position: absolute;
+    top: 9.3rem;
+    right: 2rem;
+    animation:fadeInDown 0.5s 2.8s both;
+}
+.slide6{
+    width: 100%;
+    height: 100%;
+    background: #B8C9C3;
+    background-size:cover;
+}
+#page6 img:nth-child(1){
+    width: 2.93rem;
+    height: 2.93rem;
+    position: absolute;
+    top: 2.5rem;
+    right: 1.6rem;
+    animation:flipInX 0.5s 1s both;
+}
+#page6 span{
+     position: absolute;
+     left: 3rem;
+     top: 6rem;
+    animation:flipInX 1s 1.5s both;
+
+ }
+#page6 .span1{
+    position: absolute;
+    left: 2rem;
+    top: 6.5rem;
+    animation:flipInX 1s 1.5s both;
+}
+#page6 .span2{
+    position: absolute;
+    left: 2rem;
+    top: 7rem;
+    animation:flipInX 1s 1.5s both;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
